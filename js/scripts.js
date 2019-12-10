@@ -1,14 +1,10 @@
 
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-
-var food =["tacos", "pizza", "sushi"];
-
-var seasons = ["winter, summer, fall, spring"];
-
-var animal =["dog", "cat", "sloth"];
-
-$(".color").text(colorInput);
+var food = $("input#food").val();
+var season = $("input#food").val();
+var animal = $("input#food").val();
+$(".food").text(foodInput);
 $(".season").text(seasonInput);
 $(".animal").text(animalInput);
 
