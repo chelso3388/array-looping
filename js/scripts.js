@@ -1,3 +1,7 @@
+
+$(document).ready(function() {
+  $("#blanks form").submit(function(event) {
+
 var food =["tacos", "pizza", "sushi"];
 
 var seasons = ["winter, summer, fall, spring"];
